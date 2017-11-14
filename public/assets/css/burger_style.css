@@ -1,0 +1,28 @@
+body {
+	background-color: #31A9B8;
+	color: #000;
+}
+
+.jumbotron {
+	background-color: #258039;
+}
+
+.well1 {
+	background-color: #F5BE41;
+}
+
+.well2 {
+	background-color: #CF3721;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+li {
+	font-size: 18px;
+}
