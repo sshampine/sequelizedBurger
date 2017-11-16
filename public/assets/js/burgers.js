@@ -22,11 +22,11 @@ $(function() {
 
 	$(".create-form").on("submit", function(event) {
 		event.preventDefault();
-
+		var id = (this).data("id");
 		var newBurger = {
 			name: $("#burg").val().trim(),
 		}
-		$.ajax("api/burgers/", {
+		$.ajax("api/burgers/", + id, {
 			//send POST reqeust
 			type: "POST",
 			data: newBurger
