@@ -16,6 +16,8 @@ app.use(express.static("public"));
 //sets body-parser 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 //sets handlesbars
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));

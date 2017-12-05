@@ -3,7 +3,7 @@
 $(function() {
 	$(".devour-burger").on("click", function(event) {
 		var id = $(this).data("id");
-
+		console.log("burger id: " + id);
 		var newEatState = {
 			devoured: true
 		};
@@ -22,11 +22,11 @@ $(function() {
 
 	$(".create-form").on("submit", function(event) {
 		event.preventDefault();
-		var id = (this).data("id");
+		//var id = $(this).data("id");
 		var newBurger = {
 			name: $("#burg").val().trim(),
 		}
-		$.ajax("api/burgers/", + id, {
+		$.ajax("/api/burgers/", {
 			//send POST reqeust
 			type: "POST",
 			data: newBurger
