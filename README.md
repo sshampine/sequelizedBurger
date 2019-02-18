@@ -2,7 +2,7 @@
 
 or **Eat da Burger! The Sequel**
 
-This week's challenge was to create sequelized version of [Burger](https://github.com/sshampine/burger) - a restaurant app that lets users enter burgers they'd like to eat. Sequelized Burger is a full stack app that uses the MVS model. The front end is bootstrap using a handlebars template, while the backend is node.js and mySQL. Sequelize is used to handles the SQL queries. 
+This week's challenge was to create sequelized version of [Burger](https://github.com/sshampine/burger) - a restaurant app that lets users enter burgers they'd like to eat. Sequelized Burger is a full stack app that uses the MVC model. The front end is bootstrap using a handlebars template, while the backend is node.js and mySQL. Sequelize is used to handles the SQL queries. 
 
 ## How to use
 
